@@ -1,0 +1,52 @@
+Typescript = Javascript + A type system
+
+
+
+
+            THE TYPESCRIPT TYPE SYSTEM
+        
+_____________________________________________
+
+Helps us catch errors during development -> Is a Helper to catch Errors
+
+Only active during development
+
+Doesnt provide any performance optimazation
+
+Uses 'type annotations' to analyse our code
+
+
+
+
+    Typescript Code (Javascript with annotations)
+                    
+                    ⬇
+                    
+             Typescript Compiler
+             
+                    ⬇
+                      
+            Plain old Javascript
+            
+       
+       
+       
+       
+            ENVIRONMENT SETUP
+        
+_____________________________________________
+
+sudo npm install -g typescript ts-node
+
+tsc --help    -> for checking that its working
+
+
+
+
+
+
+            
+            
+     
+
+            
