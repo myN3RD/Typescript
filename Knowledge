@@ -46,6 +46,25 @@ npm install axios    (we use this to make a netword request) -> check if there i
 
 
 
+            COMPILE
+        
+_____________________________________________
+
+in terminal:
+
+we have to go to the folder where the file sits which we want to compile
+
+
+command:
+tsc filename
+tsc index.ts -> in the file explorer of VSCode is now a new ..js file -> thats the compiled version of out ts code
+
+NOW 
+in terminal:
+node index.js
+
+
+
 
 
 
