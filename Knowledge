@@ -40,6 +40,8 @@ sudo npm install -g typescript ts-node
 
 tsc --help    -> for checking that its working
 
+npm install axios                   (we use this to make a netword request)
+
 
 
 
