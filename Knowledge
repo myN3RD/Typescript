@@ -78,6 +78,39 @@ interface -> "used to define the structure of an object"
 
 its for telling ts the properties we are using (we dont have to use ALL properties! Just the ones we want)
 
+
+
+           TYPESCRIPT SYSTEM
+_____________________________________________
+
+
+        there a two main field of knowledge in ts
+            
+
+
+Syntax + Features       vs          Design Patterns with TS
+_________________                   _______________________
+
+                                           FOKUS
+                                           
+                                           
+                                           
+           TS TYPES                                          
+ _____________________________________________
+  
+ every value is ts has a type!
+ 
+ 
+ in TS a number is a number
+ 
+ 
+ 
+ 
+        ->    Primitive types -> number, boolean, void, undefined, string, symbol, null
+ 
+TYPES 
+ 
+        ->    Object Types -> functions, arrays, classes, objects
             
             
      
