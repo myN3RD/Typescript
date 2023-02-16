@@ -40,7 +40,9 @@ sudo npm install -g typescript ts-node
 
 tsc --help    -> for checking that its working
 
-npm install axios                   (we use this to make a netword request)
+npm init -> we have to create a package.json file before we install axios!
+
+npm install axios    (we use this to make a netword request) -> check if there is a axios folder now in the node modules folder!
 
 
 
