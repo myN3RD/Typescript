@@ -76,6 +76,8 @@ _____________________________________________
 
 interface -> "used to define the structure of an object"
 
+its for telling ts the properties we are using (we dont have to use ALL properties! Just the ones we want)
+
             
             
      
