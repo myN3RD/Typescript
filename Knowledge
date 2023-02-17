@@ -216,10 +216,30 @@ Still often we need arrays with ->
 
             MULTIPLE different TYPES inside one single array
             ________________________________________________
+            
+for collections of records            
 
 const importantDates: (Date | string) [] = [new Date(), '2030-10-10'];
 importantDates.push('2040-05-05');
 importantDates.push(new Date);
-     
+
+               TUPLES                                          
+            ___________
+            
+            looks like an array
+            the order is rly important
+            
+            
+            const drink = {
+              color: 'brown',
+              corbonated: true,
+              sugar: 40
+            };
+
+            
+            this is now a TUPLE not an array anymore
+            
+                        #because of these annotaions#
+            const pepsi: [string, boolean, number] = ['brown', true, 40];
 
             
