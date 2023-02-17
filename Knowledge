@@ -134,6 +134,11 @@ TYPES
   
   with functions
   
+                              This is the annutation, /a discription of the actuall function  /  AFTER  void start the actuall function
+            const logNumber: (i: number) => void = (i: number) => {
+              console.log(i);
+            }
+  
   
   
   with objects
@@ -148,6 +153,18 @@ TYPES
 
             }
             let car: Car = new Car();
+            
+            
+            
+// When to use annotaions
+// 1. Function that returns the 'any' type
+const json = '{"x:": 10, "y": 20}';
+const coordinates = JSON.parse(json);
+console.log(coordinates); // console now {x: 10, y: 20};
+
+# if we are using JSON.parse() -> ts actually has no clue what types we are using -> so in this case of using JSON.parse(), every type will be type 'any'!
+AVOID variables with 'any' at all costs!!! otherwise ts cant rly work and err checking!
+
   
   
   
