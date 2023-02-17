@@ -124,6 +124,7 @@ TYPES
   
   
   with Variables
+  ______________
   
             const apples: number = 5;
             let speed: string = 'fast';
@@ -136,16 +137,15 @@ TYPES
             let now: Date = new Date();
             
   
-  with functions
+  
+                  functions
   
                               This is the annutation, /a discription of the actuall function  /  AFTER  void start the actuall function
             const logNumber: (i: number) => void = (i: number) => {
               console.log(i);
             }
-  
-  
-  
-  with objects
+            
+                  objects
   
             // Array
             let colors: string[] = ['red', 'green', 'blue'];
@@ -157,6 +157,20 @@ TYPES
 
             }
             let car: Car = new Car();
+            
+            
+            
+            
+ with functions
+ ______________ 
+ 
+              // a is a number, b is a number     what the function will return
+            const add = (a: number, b: number): number => {
+              return a + b;
+            };
+
+  
+
             
             
             
