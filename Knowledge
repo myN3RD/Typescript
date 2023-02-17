@@ -241,5 +241,9 @@ importantDates.push(new Date);
             
                         #because of these annotaions#
             const pepsi: [string, boolean, number] = ['brown', true, 40];
+            
+            // now we can assign in correct way
+            pepsi[0] = 'yellow';
+            pepsi[2] = 50;
 
             
