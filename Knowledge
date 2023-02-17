@@ -1,6 +1,10 @@
 Typescript = Javascript + A type system
 
 
+ts is NOT checking the code for LOGIC errors!
+its JUST for checking TYPE errors!
+
+
 
 
             THE TYPESCRIPT TYPE SYSTEM
@@ -156,15 +160,27 @@ TYPES
             
             
             
+            
+            
+             'any' TYPE // JSON.parse()                                          
+ _____________________________________________          
+            
 // When to use annotaions
 // 1. Function that returns the 'any' type
 const json = '{"x:": 10, "y": 20}';
 const coordinates = JSON.parse(json);
 console.log(coordinates); // console now {x: 10, y: 20};
 
+
 # if we are using JSON.parse() -> ts actually has no clue what types we are using -> so in this case of using JSON.parse(), every type will be type 'any'!
 AVOID variables with 'any' at all costs!!! otherwise ts cant rly work and err checking!
 
+
+#fix with annotation
+
+const json = '{"x:": 10, "y": 20}';
+const coordinates: { x: number, y: number } = JSON.parse(json);
+console.log(coordinates); // console now {x: 10, y: 20};
   
   
   
