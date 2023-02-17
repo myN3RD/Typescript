@@ -201,8 +201,25 @@ console.log(coordinates); // console now {x: 10, y: 20};
              TYPE INFERENCE                                          
  _____________________________________________
   ts guesses the type
+  
+  
+  
+  
+               ARRAYS IN TS                                          
+ _____________________________________________
             
-            
+when we work with arrays in ts -> we will just use one specific type of element in an array! 
+
+
+
+Still often we need arrays with -> 
+
+            MULTIPLE different TYPES inside one single array
+            ________________________________________________
+
+const importantDates: (Date | string) [] = [new Date(), '2030-10-10'];
+importantDates.push('2040-05-05');
+importantDates.push(new Date);
      
 
             
