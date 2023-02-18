@@ -10,6 +10,12 @@ its JUST for checking TYPE errors!
 sudo npm install -g parcel-bundler
 
 
+TO RUN THE APP with parcel
+______________
+
+npx parcel index.html
+
+
 
 
 
