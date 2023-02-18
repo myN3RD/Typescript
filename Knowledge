@@ -10,11 +10,26 @@ its JUST for checking TYPE errors!
 sudo npm install -g parcel-bundler
 
 
+
 TO RUN THE APP with parcel
 ______________
 
 npx parcel index.html
 
+
+
+
+
+OPTIONAL
+
+sudo npm install @faker-js/faker
+
+sudo npm install faker
+
+
+-- add this in every file where we use --
+// for updating faker
+import { faker } from "@faker-js/faker"; 
 
 
 
