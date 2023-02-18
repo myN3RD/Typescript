@@ -262,5 +262,27 @@ importantDates.push(new Date);
 
             const fanta: Drink = ['yellow', true, 30];
             pepsi[2] = 40;
+            
+            
+                         
+                 
+                 
+                 
+                 
+              ! INTERFACES !                                        
+ _____________________________________________
+ 
+ when we are creating an interface -> we are creating a new type
+ 
+ we can use one SINGLE INTERFACE to discribe the shape or properties of very different topics
+ 
+ allways use a Capital letter!
+ 
+ 
+ interface Vehicle {
+  name: string,
+  year: number,
+  broken: boolean
+};
 
             
