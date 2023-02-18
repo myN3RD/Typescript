@@ -226,7 +226,8 @@ importantDates.push(new Date);
                TUPLES                                          
             ___________
             
-            looks like an array
+            actually not rly useful in ts
+            looks like an array, but its not
             the order is rly important
             
             
@@ -245,5 +246,21 @@ importantDates.push(new Date);
             // now we can assign in correct way
             pepsi[0] = 'yellow';
             pepsi[2] = 50;
+            
+            
+            
+            
+            // this is now a tuple not an array anymore, cause of the added annotations
+            const pepsi: [string, boolean, number] = ['brown', true, 40];
+            pepsi[0] = 'yellow';
+            pepsi[2] = 50;
+
+
+
+            // Type alias (tuple) this is not an array! -> this is a tuple what we can use now
+            type Drink = [string, boolean, number];
+
+            const fanta: Drink = ['yellow', true, 30];
+            pepsi[2] = 40;
 
             
