@@ -285,4 +285,24 @@ importantDates.push(new Date);
   broken: boolean
 };
 
+
+            ! CLASSES !                                        
+ _____________________________________________
             
+ public 
+ 
+ 
+ private 
+ 
+            has nothing to do with security stuff -> just to protect from breaking code from other developers
+ 
+ 
+ protected
+ 
+            like private -> we can access the given methods in child classes as well
+            
+            
+            
+            
+            FIELDS
+           ________
