@@ -7,6 +7,13 @@ its JUST for checking TYPE errors!
 
 
 
+sudo npm install -g parcel-bundler
+
+
+
+
+
+
             THE TYPESCRIPT TYPE SYSTEM
         
 _____________________________________________
