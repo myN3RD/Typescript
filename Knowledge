@@ -32,6 +32,11 @@ sudo npm install faker
 import { faker } from "@faker-js/faker"; 
 
 
+IF ERR
+
+npm install --save @types/fabric
+
+
 
 
 
