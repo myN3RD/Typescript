@@ -339,3 +339,18 @@ importantDates.push(new Date);
             
             FIELDS
            ________
+           
+           
+           
+           
+           
+           ......
+   
+   
+         EXPORT & IMPORT                                       
+ _____________________________________________  
+ 
+ never use default export statement in ts in code WE WRITE -> export default
+ 
+ if we want import/export 3rd party stuff its fine
+           
