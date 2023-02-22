@@ -23,6 +23,7 @@ npx parcel index.html
 OPTIONAL
 
 sudo npm install @faker-js/faker
+npm install --save-dev @faker-js/faker
 
 sudo npm install faker
 
@@ -75,6 +76,8 @@ _____________________________________________
 
 sudo npm install -g typescript ts-node
 
+tsc --version
+
 tsc --help    -> for checking that its working
 
 npm init -> we have to create a package.json file before we install axios!
@@ -92,9 +95,9 @@ in terminal:
 we have to go to the folder where the file sits which we want to compile
 
 
-command:
+compile: (tsc command)
 tsc filename
-tsc index.ts -> in the file explorer of VSCode is now a new ..js file -> thats the compiled version of out ts code
+tsc index.ts -> in the file explorer of VSCode is now a new COMPILED ..js file -> thats the compiled version of our ts file
 
 NOW 
 in terminal:
